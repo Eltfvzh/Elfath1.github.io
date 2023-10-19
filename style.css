@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar .head .bar{
+    background-color: black;
+    height: 200px;
+    margin-top: -18px;
+    margin-bottom: -60px;
+}
+.navbar .head .bar ul{
+    text-align: center;
+}
+.navbar .head .bar ul li{
+    display: inline-block;
+    flex-flow: wrap;
+    margin: 15px;
+    text-justify: auto;
+    justify-content: center;
+    padding-top: 30px;
+}
+.navbar .head .bar ul li a{
+    color: darkgray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar .head .bar ul li img{
+    width: 30px;
+    height: auto;
+}
+.navbar .head .bar ul li a .oip{
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+}
+.navbar .head .bar ul li a .keranjang{
+    width: 30px;
+    height: auto;
+}
+.navbar .gambar1 .text{
+    text-align: center;
+    color: whitesmoke;
+}
+.navbar .gambar1 .text h1{
+    font-size: 70px;
+}
+.navbar .gambar1 .text h2{
+    font-size: 50px;
+}
+.navbar .gambar1 .text .link ul li a{
+    color: rgb(0, 98, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar .gambar1 .text .link ul li{
+    display: inline-block;
+    margin: 15px;
+}
+.navbar .gambar1{
+    background-image: url(iPhone-15-koncept-2-1536x864.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+.navbar .head .main .jumbotron .mainheader{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.navbar .head .main .jumbotron{
+    display: flex;
+    flex-direction: row;
+}
+.navbar .head .main .jumbotron .mainheader .container .text{
+    text-align: center;
+}
+.navbar .head .main .jumbotron .mainheader .container .text h1{
+    font-size: 70px;
+}
+.navbar .head .main .jumbotron .mainheader .container .text h4{
+    font-size: 40px;
+}
+.navbar .head .main .jumbotron .mainheader .container .img img{
+    width: 600px;
+    height: 970px;
+    padding-left: 90px;
+}
+.navbar .head .main .jumbotron .banner .orang{
+    width: 800px;
+    text-align: center;
+    background-image: url(s88-pom-1544_2_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1240px;
+    margin-top: -30px;
+}
+.navbar .head .main .jumbotron .banner .orang h1{
+    font-size: 70px;
+}
+.navbar .head .main .jumbotron .banner .orang h4{
+    font-size: 40px;
+}
+.navbar .footer{
+    background-color: black;
+    color: whitesmoke;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+}
+.navbar .footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar .footer a{
+    margin-top: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+.navbar .footer h3{
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.navbar .copyright p{
+    text-align: center;
+    font-size: 17px;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+.navbar .laptop .main .jumbotron .mainheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    background-color: slategrey;
+}
+
+.navbar .laptop .main .jumbotron .mainheader .text {
+    margin-top: 140px;
+    color: whitesmoke;
+}
+
+.navbar .laptop .main .jumbotron .mainheader .img img {
+    border-radius: 20px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+.navbar .laptop .main .banner{
+    background-image: url(https://i.pinimg.com/originals/ab/9f/7d/ab9f7dabb92144fcc6de46549b58a7b9.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.navbar .laptop .main .banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link, h4{
+    margin-top: -20px;
+}
+.navbar .laptop .main .banner .container h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+.navbar .laptop .main .banner .container h4{
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+}
+.navbar .laptop .main .banner .container .link a{
+    color: rgb(0, 132, 255);
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.container .link a:hover{
+    text-decoration: underline;
+}
+a{
+    color: inherit;
+}
+.navbar .laptop a:hover{
+    color: crimson;
+}
+.navbar .main a:hover{
+    color: crimson;
+}
+.navbar .bar a:hover
